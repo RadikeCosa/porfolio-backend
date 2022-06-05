@@ -28,6 +28,6 @@ public class Persona {
     private String github;
     private String twitter;
     private String instagram;
-    
+    private String about;
     
 }
