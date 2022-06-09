@@ -59,6 +59,9 @@ public class PersonaController {
                                  @RequestParam ("linkedin") String nuevoLinkedin,
                                  @RequestParam ("github") String nuevoGithub,
                                  @RequestParam ("twitter") String nuevoTwitter,
+                                 @RequestParam ("soy1") String nuevoSoy1,
+                                 @RequestParam ("soy2") String nuevoSoy2,
+                                 @RequestParam ("soy3") String nuevoSoy3,
                                  @RequestParam ("instagram") String nuevoInstagram,
                                  @RequestParam ("about") String nuevoAbout) {
         
@@ -69,6 +72,9 @@ public class PersonaController {
         perso.setLinkedin(nuevoLinkedin);
         perso.setGithub(nuevoGithub);
         perso.setTwitter(nuevoTwitter);
+        perso.setSoy1(nuevoSoy1);
+        perso.setSoy2(nuevoSoy2);
+        perso.setSoy3(nuevoSoy3);
         perso.setInstagram(nuevoInstagram);
         perso.setAbout(nuevoAbout);
         
