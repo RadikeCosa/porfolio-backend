@@ -28,6 +28,8 @@ public class Persona {
     private String github;
     private String twitter;
     private String instagram;
-    
-    
+    private String about;
+    private String soy1;
+    private String soy2;
+    private String soy3;
 }
