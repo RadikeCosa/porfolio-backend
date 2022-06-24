@@ -29,7 +29,7 @@ public class PersonaController {
     private IPersonaService interPersona;
     
     
-    @CrossOrigin(origins = "https://porfoliodb.web.app/")
+    @CrossOrigin(origins = "https://porfoliodb.web.app")
     @GetMapping ("/personas/traer")
     public List<Persona> getPersonas() {
         return interPersona.getPersonas();
